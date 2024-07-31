@@ -3,13 +3,13 @@
 
   },
   "secondaryToolbarData" : {
-    "isGridVisible" : true
+    "isGridVisible" : true,
+    "sceneReverbPreset" : -1
   },
   "unitDefaults" : {
     "°" : "°",
     "kg" : "g",
-    "kg⋅m²" : "kg⋅m²",
-    "m" : "m",
+    "m" : "cm",
     "m\/s" : "m\/s",
     "m\/s²" : "m\/s²",
     "s" : "s"

@@ -16,6 +16,7 @@
 		279BADAA2C4D5AC3003DC88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279BADA92C4D5AC3003DC88E /* Assets.xcassets */; };
 		279BADAD2C4D5AC3003DC88E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279BADAC2C4D5AC3003DC88E /* Preview Assets.xcassets */; };
 		279BADB82C4D5AC3003DC88E /* BubblesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BADB72C4D5AC3003DC88E /* BubblesTests.swift */; };
+		27D37FDB2C59E4AA00A41F11 /* BubblesSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D37FDA2C59E4AA00A41F11 /* BubblesSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		279BADAE2C4D5AC3003DC88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279BADB32C4D5AC3003DC88E /* BubblesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubblesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279BADB72C4D5AC3003DC88E /* BubblesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblesTests.swift; sourceTree = "<group>"; };
+		27D37FDA2C59E4AA00A41F11 /* BubblesSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubblesSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		279BAD9A2C4D5AC2003DC88E /* Bubbles */ = {
 			isa = PBXGroup;
 			children = (
+				27D37FDA2C59E4AA00A41F11 /* BubblesSystem.swift */,
 				279BAD9F2C4D5AC2003DC88E /* BubblesApp.swift */,
 				279BADA12C4D5AC2003DC88E /* ContentView.swift */,
 				279BADA32C4D5AC2003DC88E /* AppModel.swift */,
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D37FDB2C59E4AA00A41F11 /* BubblesSystem.swift in Sources */,
 				279BADA62C4D5AC2003DC88E /* ToggleImmersiveSpaceButton.swift in Sources */,
 				279BADA22C4D5AC2003DC88E /* ContentView.swift in Sources */,
 				279BADA82C4D5AC2003DC88E /* ImmersiveView.swift in Sources */,

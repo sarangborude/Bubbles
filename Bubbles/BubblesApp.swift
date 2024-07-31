@@ -12,6 +12,11 @@ struct BubblesApp: App {
 
     @State private var appModel = AppModel()
 
+    init() {
+        ///Uncomment this to enable the system
+        //BubblesSystem.registerSystem()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
